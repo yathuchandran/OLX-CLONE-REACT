@@ -4,7 +4,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Signup from './Pages/Signup'
 import Login from "./Pages/Login";
 import Create from './Pages/Create'
+import view from './Pages/ViewPost'
 import {AuthContext, FirebaseContext} from './store/Context'
+import Post from "./store/PostContext";
 
 /**
  * ?  =====Import Components=====
@@ -22,14 +24,20 @@ function App() {
   })
   return (
     <div>
+      <Post>
+
       <BrowserRouter>
         <Routes>
           <Route Component={Home} path='/'></Route>
           <Route Component={Signup} path='/signup'></Route>
           <Route Component={Login} path='/login'></Route>
           <Route Component={Create} path='/create'></Route>
+          <Route Component={view} path='/view'></Route>
+
         </Routes>
       </BrowserRouter>
+      </Post>
+      
     </div>
   );
 }
