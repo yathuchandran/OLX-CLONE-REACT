@@ -1,7 +1,12 @@
-import firebase from 'firebase/compat/app'
-import 'firebase/auth'
 
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+
+
+import firebase from 'firebase/compat/app'
+import 'firebase/compat/auth'
+import 'firebase/compat/firestore'
+import 'firebase/compat/storage'
+
+
 const firebaseConfig = {
     apiKey: "AIzaSyBiRXh4iPWW5sB3BhaffGogN8RZrJfU6VA",
     authDomain: "olx-clone-67d09.firebaseapp.com",
