@@ -5,6 +5,12 @@ import { FirebaseContext } from '../../store/Context';
 import { PostContext } from '../../store/PostContext';
 import { useNavigate } from 'react-router';
 
+// function Posts() {
+//   const { firebase } = useContext(FirebaseContext);
+//   const {setPostDetails} = useContext(PostContext)  
+//   const [products, setProducts] = useState([]);
+//   const navigate = useNavigate();
+
 function Posts() {
   const { firebase } = useContext(FirebaseContext);
   const {setPostDetails} = useContext(PostContext)  
