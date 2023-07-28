@@ -11,11 +11,7 @@ import { useNavigate } from 'react-router';
 //   const [products, setProducts] = useState([]);
 //   const navigate = useNavigate();
 
-function Posts() {
-  const { firebase } = useContext(FirebaseContext);
-  const {setPostDetails} = useContext(PostContext)  
-  const [products, setProducts] = useState([]);
-  const navigate = useNavigate();
+
 
   useEffect(() => {
     firebase
