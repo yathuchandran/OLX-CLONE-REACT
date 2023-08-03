@@ -1,11 +1,11 @@
-import React, { useEffect, useContext, useState } from 'react';
-import Heart from '../../assets/Heart';
-import './Post.css';
-import { FirebaseContext } from '../../store/Context';
-import { PostContext } from '../../store/PostContext';
-import { useNavigate } from 'react-router';
+// import React, { useEffect, useContext, useState } from 'react';
+// import Heart from '../../assets/Heart';
+// import './Post.css';
+// import { FirebaseContext } from '../../store/Context';
+// import { PostContext } from '../../store/PostContext';
+// import { useNavigate } from 'react-router';
 
-// function Posts() {
+// // function Posts() {
 //   const { firebase } = useContext(FirebaseContext);
 //   const {setPostDetails} = useContext(PostContext)  
 //   const [products, setProducts] = useState([]);
